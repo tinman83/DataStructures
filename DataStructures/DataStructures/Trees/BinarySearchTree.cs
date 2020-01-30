@@ -108,7 +108,7 @@ namespace DataStructures.Trees
                 PreOrder_Rec(root.Left);
                 PreOrder_Rec(root.Right);
             }
-
+           
         }
         public static void PostOrder_Rec(Node root)
         {
