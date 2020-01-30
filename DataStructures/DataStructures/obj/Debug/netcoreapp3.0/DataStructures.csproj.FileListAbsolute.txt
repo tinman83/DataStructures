@@ -1,0 +1,11 @@
+C:\Users\abtmbfp\source\repos\DataStructures\DataStructures\bin\Debug\netcoreapp3.0\DataStructures.exe
+C:\Users\abtmbfp\source\repos\DataStructures\DataStructures\bin\Debug\netcoreapp3.0\DataStructures.deps.json
+C:\Users\abtmbfp\source\repos\DataStructures\DataStructures\bin\Debug\netcoreapp3.0\DataStructures.runtimeconfig.json
+C:\Users\abtmbfp\source\repos\DataStructures\DataStructures\bin\Debug\netcoreapp3.0\DataStructures.runtimeconfig.dev.json
+C:\Users\abtmbfp\source\repos\DataStructures\DataStructures\bin\Debug\netcoreapp3.0\DataStructures.dll
+C:\Users\abtmbfp\source\repos\DataStructures\DataStructures\bin\Debug\netcoreapp3.0\DataStructures.pdb
+C:\Users\abtmbfp\source\repos\DataStructures\DataStructures\obj\Debug\netcoreapp3.0\DataStructures.csprojAssemblyReference.cache
+C:\Users\abtmbfp\source\repos\DataStructures\DataStructures\obj\Debug\netcoreapp3.0\DataStructures.AssemblyInfoInputs.cache
+C:\Users\abtmbfp\source\repos\DataStructures\DataStructures\obj\Debug\netcoreapp3.0\DataStructures.AssemblyInfo.cs
+C:\Users\abtmbfp\source\repos\DataStructures\DataStructures\obj\Debug\netcoreapp3.0\DataStructures.dll
+C:\Users\abtmbfp\source\repos\DataStructures\DataStructures\obj\Debug\netcoreapp3.0\DataStructures.pdb
