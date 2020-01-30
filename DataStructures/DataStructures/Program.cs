@@ -2,24 +2,29 @@
 using DataStructures.Trees;
 using System;
 
+
 namespace DataStructures
 {
     class Program
     {
         static void Main(string[] args)
         {
-           
+            //DataStructures.Trees.BinarySearchTree.BinTreesMain bst = new DataStructures.Trees.BinarySearchTree.BinTreesMain();
+            //bst.Run();
 
-            //SinglyLinkedList llist = new SinglyLinkedList();
 
-            //Node llist_head = insertNodeAtTail(llist.head, 5);
-            //llist.head = llist_head;
+            SinglyLinkedList llist = new SinglyLinkedList();
 
-            //Node llist_head1 = insertNodeAtTail(llist.head, 6);
-            //llist.head = llist_head1;
+            Node llist_head = insertNodeAtTail(llist.head, 5);
+            llist.head = llist_head;
 
-            //Node llist_head2 = insertNodeAtTail(llist.head, 7);
-            //llist.head = llist_head2;
+            Node llist_head1 = insertNodeAtTail(llist.head, 6);
+            llist.head = llist_head1;
+
+            Node llist_head2 = insertNodeAtTail(llist.head, 7);
+            llist.head = llist_head2;
+
+            var reversed=reverseLinkedList(llist.head);
 
             Console.ReadKey();
 
@@ -58,6 +63,26 @@ namespace DataStructures
             }
 
             return temp;
+        }
+
+        static Node reverseLinkedList(Node head)
+        {
+
+            Node current = head;
+            Node prev = null;
+            Node next = null;
+
+            while (current != null)
+            {
+
+                next = current.next;
+                current.next = prev;
+                prev = current;
+                current = next;
+            }
+
+            head = prev;
+            return head;
         }
     }
 }
