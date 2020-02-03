@@ -1,7 +1,12 @@
-﻿using DataStructures.LinkedLists;
-using DataStructures.Trees;
+﻿using DataStructures.HashTables;
+using DataStructures.LinkedLists;
+using DataStructures.Queues;
+using DataStructures.Searching;
+using DataStructures.Sorting;
+using DataStructures.Strings;
 using System;
-
+using System.Collections;
+using System.Text;
 
 namespace DataStructures
 {
@@ -9,80 +14,39 @@ namespace DataStructures
     {
         static void Main(string[] args)
         {
-            //DataStructures.Trees.BinarySearchTree.BinTreesMain bst = new DataStructures.Trees.BinarySearchTree.BinTreesMain();
-            //bst.Run();
+            //string str= "you can cage a swallow can't you?";
+            ////string str = "you shall not pass";
+            //Permutation.reverseSentence(str);
 
+            //SortingAlgorithms S = new SortingAlgorithms();
+            //S.run();
+            //BinarySearch bin = new BinarySearch();
+            //bin.run();
+            //Permutation.run();
+            ////FindPair.Main.run();
+            //string str = "ABCDEF";
+            //string sub = str.Substring(0, 2);
+            //Console.WriteLine(sub);
+            //StringBuilder sb = new StringBuilder();
 
-            SinglyLinkedList llist = new SinglyLinkedList();
+            //ArrayList arrList = new ArrayList();
 
-            Node llist_head = insertNodeAtTail(llist.head, 5);
-            llist.head = llist_head;
+            //arrList.Add(1);
 
-            Node llist_head1 = insertNodeAtTail(llist.head, 6);
-            llist.head = llist_head1;
+            //for(int i=0; i < arrList.Count; i++)
+            //{
+            //    var n = arrList[i];
+            //}
 
-            Node llist_head2 = insertNodeAtTail(llist.head, 7);
-            llist.head = llist_head2;
+            //sb.Append("my name is");
+            //sb.Append("");
 
-            var reversed=reverseLinkedList(llist.head);
+            //LinkedLists.Main.run();
+            MyQueue<int> myQueue = new MyQueue<int>();
+            myQueue.run();
 
             Console.ReadKey();
-
             Console.WriteLine("Hello World!");
-        }
-        static Node insertNodeAtTail(Node head, int data)
-        {
-
-            Node new_node = new Node(data);
-
-            if (head == null)
-            {
-                head = new_node;
-
-            }
-            else
-            {
-                var lastNode = GetLastNode(head);
-                lastNode.next = new_node;
-            }
-
-            return head;
-        }
-        static Node GetLastNode(Node head)
-        {
-
-            if (head.next == null)
-                return head;
-
-            Node temp;
-            temp = head.next;
-
-            while (temp.next != null)
-            {
-                temp = temp.next;
-            }
-
-            return temp;
-        }
-
-        static Node reverseLinkedList(Node head)
-        {
-
-            Node current = head;
-            Node prev = null;
-            Node next = null;
-
-            while (current != null)
-            {
-
-                next = current.next;
-                current.next = prev;
-                prev = current;
-                current = next;
-            }
-
-            head = prev;
-            return head;
         }
     }
 }

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.29418.71
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{C6DBF2FE-5259-49A0-A569-9F7ED8FFB1CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{E34FF6F9-A0CC-4921-B897-8807B5C77C23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C6DBF2FE-5259-49A0-A569-9F7ED8FFB1CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C6DBF2FE-5259-49A0-A569-9F7ED8FFB1CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C6DBF2FE-5259-49A0-A569-9F7ED8FFB1CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C6DBF2FE-5259-49A0-A569-9F7ED8FFB1CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E34FF6F9-A0CC-4921-B897-8807B5C77C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E34FF6F9-A0CC-4921-B897-8807B5C77C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E34FF6F9-A0CC-4921-B897-8807B5C77C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E34FF6F9-A0CC-4921-B897-8807B5C77C23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {609A51E9-65E1-43CD-8790-9AA80BABDF70}
+		SolutionGuid = {1932AB0C-F2E7-477C-BCA4-8ED1F720F78A}
 	EndGlobalSection
 EndGlobal
