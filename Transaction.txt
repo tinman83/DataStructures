@@ -1,0 +1,43 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace DataStructures
+{
+    public class Transaction
+    {
+        private decimal kip;
+
+        public decimal Balance
+        {
+            get { return kip; }
+            set { kip = value; }
+        }
+
+        private string account;
+
+        public string Account
+        {
+            get { return account; }
+            set { account = value; }
+        }
+
+        private string actionCode;
+
+        public string ActionCode
+        {
+            get { return actionCode; }
+            set { actionCode = value; }
+        }
+
+        private decimal amountTransactionFee;
+
+        public decimal AmountTransactionFee
+        {
+            get { return amountTransactionFee; }
+            set { amountTransactionFee = value; }
+        }
+
+
+    }
+}
