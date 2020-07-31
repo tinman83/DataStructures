@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-https://www.docusign.net/Member/EmailStart.aspx?a=10456b5a-7488-458d-b430-1668b5a66d41&acct=7a94e258-de1f-4715-ae23-85033737f093&er=ddde74a9-d258-4cd5-acb5-81e3cd16413f
+
 namespace DataStructures
 {
     public class Transaction
